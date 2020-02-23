@@ -1,9 +1,598 @@
 <!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
 <html lang="en">
+<!--<![endif]-->
+
 <head>
-    <title>A simple HTML document</title>
+    <title>Jain</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive HTML5 Website Landing Page for Developers">
+    <meta name="author" content="Hardik Jain">
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/plugins/web-fonts-with-css/css/academicons.css" />
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
 </head>
+
 <body>
-    <p>Hello World!<p>
+    <!-- ******HEADER****** -->
+    <header class="header">
+        <div class="container">
+            <img class="profile-image img-responsive pull-left" src="assets/images/profile.JPG" alt="Hardik Jain" data-action="zoom" />
+            <div class="profile-content pull-left">
+                <h1 class="name">Hardik Jain</h1>
+                <h2 class="desc">Research Scholar @ Technical University Berlin</h2>
+                <h3 class="desc"><a href="https://www.cv.tu-berlin.de/menue/computer_vision_remote_sensing/parameter/en/" target="_blank">Computer Vision and Remote Sensing Group</href></h3>
+                <ul class="social list-inline">
+                    <li><a href="https://scholar.google.com/citations?user=LqwogOwAAAAJ&hl=en" target="_blank"><i class="ai ai-google-scholar ai-2x"></i></a></li>
+                    <li><a href="https://www.researchgate.net/profile/Hardik_Jain3" target="_blank"><i class="ai ai-researchgate ai-2x"></i></a></li>
+                    <li><a href="https://github.com/hrdkjain" target="_blank"><i class="fab fa-github fa-2x"></i></a></li>
+                    <li><a href="https://orcid.org/0000-0001-9499-8040" target="_blank"><i class="ai ai-orcid ai-2x"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/hrdkjain/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></li>
+                    <li><a href="https://play.google.com/store/apps/developer?id=Hardik+Jain" target="_blank"><i class="fab fa-google-play fa-2x"></i></a></li>
+                    <li><a href="https://itunes.apple.com/us/developer/hardik-jain/id1424274482?mt=8" target="_blank"><i class="fab fa-apple fa-2x"></i></a></li>
+                    <li class="last-item"><a href="https://www.youtube.com/channel/UCMQ6qBivagovEtrFVXW_Jkw?view_as=subscriber" target="_blank"><i class="fab fa-youtube fa-2x"></i></a></li>
+                </ul>
+            </div>
+            <!--profile-content pull-left-->
+        </div>
+        <!--//container-->
+    </header>
+    <!--//header-->
+
+    <div class="container sections-wrapper">
+        <div class="row">
+            <div class="primary col-md-8 col-sm-12 col-xs-12">
+                <section class="latest section">
+                    <!--Latest Updates-->
+                    <div class="section-inner">
+                        <h2 class="heading">Latest Updates</h2>
+                        <div class="content">
+                            <div class="item featured text-center">
+                                <h3 class="title">Lange Nacht der Wissenschaften 2019</h3>
+								<!-- Slideshow container -->
+								<div class="slideshow-container">
+
+								  <!-- Full-width images with number and caption text -->
+								  <div class="mySlides fade">
+									<div class="numbertext">1 / 3</div>
+									<img src="assets/images/projects/LNDW2018_1.jpg" style="width:100%">
+								  </div>
+
+								  <div class="mySlides fade">
+									<div class="numbertext">2 / 3</div>
+									<img src="assets/images/projects/LNDW2018_2.jpg" style="width:100%">
+								  </div>
+
+								  <div class="mySlides fade">
+									<div class="numbertext">3 / 3</div>
+									<img src="assets/images/projects/LNDW2018_3.jpg" style="width:100%">
+								  </div>
+                                <br>
+                                <p align="justify" class="summary">Project presentation at LNDW 2019 by our department (Computer Vision and Remote Sensing) at Technical University Berlin <a href="https://www.cv.tu-berlin.de/menue/lange_nacht_der_wissenschaften/" target="_blank">"LNDW 2019"</a>.
+                            </div>
+                            <!--//item-->
+                            <!-- <hr class="divider" /> -->
+                        </div>
+                        <!--//content-->
+                        <!--<div class="content">    
+                    <div class="item featured text-center">
+                    <h3 class="title">Talk at my School</h3>
+                    <div class="videoWrapper"> <iframe width="560" height="315" src="https://www.youtube.com/embed/LPtrmMM4RCo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                    <br>
+                    <p align="justify" class="summary">I was invited to talk with class 12<sup>th</sup> students of my school (Lions Convent School, Sendhwa) on March 16, 2018. Main agenda of the talk was not any motivational speech but a discussion of mistakes I did in my educational career and how I overcame them. </p>
+                    </div>
+                    <!--//item->
+                    <!-- <hr class="divider" /> ->
+                </div><!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </section>
+                <!--//section-->
+            </div>
+            <!--//primary-->
+
+            <div class="secondary col-md-4 col-sm-12 col-xs-12">
+                <aside class="info aside section">
+                    <!--About Me-->
+                    <div class="section-inner">
+                        <h2 class="heading">About Me</h2>
+                        <div class="content">
+                            <p align="justify"> Before joining as a PhD student at Computer Vision and Remote Sensing group, I was a Junior Research Fellow at IIT Gandhinagar, India. I completed my master's from IIT Roorkee, during which I had a chance to undergo my Master's thesis work at TU Berlin. My current research interest includes application of Mesh Parametrisation in Deep Learning for Object Shape Description, Classification and other 3D problems.
+                            </p>
+                        </div>
+                        <!--//content-->
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><a href="http://www.cv.tu-berlin.de/menue/mitarbeiter/hardik_jain/" target="_blank"><i class="fas fa-map-marker-alt"></i></a><span class="sr-only">Location:</span>Berlin, Germany</li>
+                                <li><a href="mailto:hrdkjain@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a><span class="sr-only">Email:</span>hrdkjain@gmail.com</li>
+                                <li class="last-child"><a href="https://www.linkedin.com/in/hrdkjain/" target="_blank"><i class="fab fa-linkedin"></i></a><span class="sr-only">Website:</span> @hrdkjain</li>
+                            </ul>
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </aside>
+                <!--//section-->
+
+                <aside class="work aside section">
+                    <!--Work Experience-->
+                    <div class="section-inner">
+                        <h2 class="heading">Work Experience</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title"><i class="fas fa-briefcase-medical"></i>Research Assistant </h3>
+                                <!--<span class="place"><a href="http://www.fiagon.com/"  target="_blank">Fiagon GmbH</a></span> <span class="year">(Feb 2108 - Present)</span></h3>-->
+                                <h4 class="company"><a href="http://www.fiagon.com/">Fiagon GmbH, Germany </a></h4>
+                                <span class="year">(Feb 2018 - Present)</span>
+                                <!--<p align="justify">Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>
+                                -->
+                            </div>
+                            <!--//item-->
+                            <div class="item">
+                                <h3 class="title"><i class="fas fa-university"></i>Junior Reserach Fellow </h3>
+                                <!--<span class="place"><a href="https://sites.google.com/view/nitinkhanna/home?authuser=0">MANAS Lab, IIT Gandhinagar, India </a></span> <span class="year">(July 2016 - June 2017)</span></h3>-->
+                                <h4 class="company"><a href="https://sites.google.com/view/nitinkhanna/home?authuser=0"  target="_blank">MANAS Lab, IIT Gandhinagar, India </a></h4>
+                                <span class="year">(July 2016 - June 2017)</span>
+                            </div>
+                            <!--//item-->
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </aside>
+                <!--//section-->
+            </div>
+            <!--//secondary-->
+        </div>
+        <!--//row-->
+
+        <div class="row">
+            <div class="primary col-md-8 col-sm-12 col-xs-12">
+                <section class="publication section">
+                    <!--Publications-->
+                    <div class="section-inner">
+                        <h2 class="heading">Publications</h2>
+                        <div class="content">
+                            <div class="item row">
+                                <h3 class="title">Learning to Reconstruct Symmetric Shapes using Planar Parameterization of 3D Surface</h3>
+                                <h4 class="publicationhouse"><a href="http://openaccess.thecvf.com/menu.py" target="_blank">IEEE International Conference on Computer Vision Workshops (ICCVW), Korea, 2019</a></h4>
+                                <h4 class="author">Hardik Jain, <a href="https://www.cv.tu-berlin.de/menue/mitarbeiter/manuel_woellhaf/" target="_blank">Manuel Wöllhaf</a>, 
+                                    <a href="http://www.cv.tu-berlin.de/menue/mitarbeiter/olaf_hellwich/" target="_blank">Olaf Hellwich</a></h4>
+                                <a class="col-md-4 col-sm-4 col-xs-12">
+                                    <img class="img-responsive project-image" src="assets/images/papers/jain2019Learning.png" data-action="zoom" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <p align="justify" class="summary">Shape priors have been a game changer to achieve robust 3D reconstruction. In this work, we try to reconstruct 3D shape from images by using a parameterized representation of the shape. We perform iterative parameterization of the surface to obtain a planar representation. This representation is encoded with surface information to generate 2D geometry images, which can be conveniently learned using traditional deep neural networks without additional overhead. Our experiments demonstrate that the proposed network learns detailed features and is able to reconstruct geometrically accurate shapes from single image. <a class="more-link" href="https://github.com/hrdkjain/LearningSymmetricShapes" target="_blank"> Find out more <i class="fas fa-external-link-alt"></i></a></p>
+                                </div>
+                            </div>
+                            <!--//item-->
+                            <hr class="divider" />
+                            <div class="item row">
+                                <h3 class="title">Improving 3D Face Geometry by Adapting Reconstruction From Stereo Image Pair to Generic Morphable Model</h3>
+                                <!--<span class="label label-theme">Open Source</span></h3> -->
+                                <h4 class="publicationhouse"><a href="http://fusion2016.org/Main_Page" target="_blank">International Conference on Information Fusion (FUSION), Germany, 2016</a></h4>
+                                <h4 class="author">Hardik Jain, <a href="http://www.cv.tu-berlin.de/menue/mitarbeiter/olaf_hellwich/" target="_blank">Olaf Hellwich</a>, <a href="https://www.iitr.ac.in/departments/EE/pages/People+Faculty+anandfee.html" target="_blank">R S Anand</a></h4>
+                                <a class="col-md-4 col-sm-4 col-xs-12">
+                                    <img class="img-responsive project-image" src="assets/images/papers/jain2016Improving.PNG" data-action="zoom" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <p align="justify" class="summary">Stereo reconstruction from image pairs is a standard method for 3D acquisition of human faces. Depending on available imagery and accuracy requirements the resulting 3D reconstructions may have deficits. In this work we remedy such deficits combining the 3D stereo reconstruction with a generic Morphable Model. Prior shape information can be obtained by already developed methods, which uses landmarks to fit a morphable model to a single image resulting in a second 3D reconstruction. This alternative to the stereo reconstruction is combined with it, allowing to prefer information from the single image reconstruction whenever the stereo reconstruction shows untypical deviations from the expected 3D features of a human face.
+                                        <a class="more-link" href="http://ieeexplore.ieee.org/document/7528091/" target="_blank"> Find out more <i class="fas fa-external-link-alt"></i></a></p>
+                                </div>
+                            </div>
+                            <!--//item-->
+                            <hr class="divider" />
+                            <div class="item row">
+                                <h2 class="heading">Master's Thesis</h2>
+                                <h3 class="title">Using Morphable Face Model to Improve Stereo Reconstruction and Visualising the Model on a Smartphone</h3>
+                                <!--<span class="label label-theme">Open Source</span></h3> -->
+                                <h4 class="author"><a href="https://www.iitr.ac.in/" target="_blank">IIT Roorkee, India (May 2016)</a></h4>
+                                <a class="col-md-4 col-sm-4 col-xs-12">
+                                    <img class="img-responsive project-image" src="assets/images/papers/MTechThesis.PNG" alt="project name" data-action="zoom" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <p align="justify" class="summary">
+                                        Stereo Reconstruction from image pair is a standard method for 3D acquisition of human faces. Stereo surface reconstruction has lots of holes, and limited texture information. In this work we remedy such deficits combining the 3D stereo reconstruction with a generic Morphable Face Model. A Major part of the thesis is devoted to improvement in stereo face reconstruction pipeline by allowing to prefer information from the single image reconstruction whenever the stereo reconstruction shows untypical deviations. From a pair of stereo images, one is used for single image reconstruction and the combination gives the stereo model. The two reconstruction are then combined to result in the deformed face model. The fusion outcome results in geometrically more accurate face reconstruction. Finally, the resultant deformed face model is visually presented on a smartphone using cardboard, which addresses the modern trend of low cost devices in virtual 3D visualization.
+                                        <a class="more-link" href="https://www.researchgate.net/publication/308306540_Using_Morphable_Face_Model_to_Improve_Stereo_Reconstruction_and_Visualising_the_Model_on_a_Smartphone" target="_blank"> Find out more <i class="fas fa-external-link-alt"></i></a></p>
+                                </div>
+                                <!--//item-->
+                            </div>
+                            <!--//item-->
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </section>
+                <!--//Publications-->
+				<!--OngoingProjects-->
+                <section class="latest section">
+                    <div class="section-inner">
+                        <h2 class="heading">Ongoing Projects</h2>
+                        <div class="content">
+                            <div class="item row" , align="center">
+                                <!-- RealSense title-->
+                                <div class="desc col-md-12 col-sm-12 col-xs-12">
+                                    <h3 class="title">Patient Surface Registration for Surgical Navigation<span class='label'>
+                                <a href="http://www.fiagon.com/">Fiagon GmbH</a></span></h3>
+                                    <h4 class="software"><a2 href="https://unity3d.com/"> MS Visual Studio</a2>, <a2 href="https://www.blender.org/">Blender</a2>, <a2 href="https://www.meshlab.net/">MeshLab</a2>, C++
+                                </h4>
+                                </div>
+                            </div>
+                            <!--//RealSense title-->
+                            <div class="item row">
+                                <!-- RealSense content-->
+                                <a class="col-md-4 col-sm-4 col-xs-4">
+                                    <img class="img-responsive project-image" src="assets/images/projects/Motion3.JPG" alt="project name" />
+                                </a>
+                                <p align="justify"> For surgical navigation, the patient's facial surface needs to be co-registered with pre-surgically acquired data (CT Scan). To acquire the facial surface, non-contact based image acquisition is employed. Image based stereo reconstruction requires capturing atleast two images from different view points, or using a stereo camera. After capturing the 3D data, it is to be registered with the pre-surgical data using reference markers.					</p>
+                            </div>
+                            <!--//RealSense content--->
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </section>
+                <!--//OngoingProjects-->
+
+				<!--AccomplishedProjects-->
+                <section class="publication section">
+                    <div class="section-inner">
+                        <h2 class="heading">Accomplished Projects</h2>
+                        <div class="content">
+							<div class="item row ">
+                                <h3 class="title">A Power Efficient Multi-Bit Accelerator for Memory Prohibitive Deep Neural Networks</h3>
+                                <h4 class="publicationhouse"><a href="https://iscas2020.org/" target="_blank">IEEE International Symposium on Circuits and Systems (ISCAS), Spain, May 2020</a></h4>
+                                <h4 class="author"><a href="https://www.msc.tu-berlin.de/menue/team/suhas/" target="_blank">Suhas Shivaprakash</a>, Hardik Jain, <a href="https://www.cv.tu-berlin.de/menue/mitarbeiter/olaf_hellwich/" target="_blank">Olaf Hellwich</a>, <a href="https://www.msc.tu-berlin.de/menue/team/gerfers_eng/" target="_blank">Friedel Gerfers</a></h4>
+                                <a class="col-md-4 col-sm-4 col-xs-12">
+                                    <img data-action="zoom" class="img-responsive project-image" src="assets/images/papers/shivaprakash2020Power.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <p align="justify" class="summary">State of art deep neural network (DNN) models are both memory prohibitive and computationally intensive with millions of connections. Employing these models for an embedded mobile application is resource limited with large power consumption and significant bandwidth requirement. In this paper, we propose a power efficient multi-bit neural network accelerator, where we employ the technique of truncating the partial sum (PSum) results from the previous layer before feeding it into the next layer.
+                                        <a class="more-link" href="#" target="_blank"> Find out more <i class="fas fa-external-link-alt"></i> </a></p>
+                                </div>
+                                <!--//desc-->
+                            </div>                            
+                            <hr class="divider" />
+							<div class="item row ">
+                                <h3 class="title">Patient Motion Compensation for Photogrammetric Registration</h3>
+                                <h4 class="publicationhouse"><a href="http://www.visapp.visigrapp.org/" target="_blank">International Conference on Computer Vision Theory and Applications (VISAPP), Malta, Feb 2020</a></h4>
+                                <h4 class="author">Hardik Jain, <a href="https://www.cv.tu-berlin.de/menue/mitarbeiter/olaf_hellwich/" target="_blank">Olaf Hellwich</a>, <a href="#" >Andreas Rose</a>, <a href="#" >Nicholas Norman</a>, <a href="#">Dirk Much</a>, <a href="#">Timo Krüger</a></h4>
+                                <a class="col-md-4 col-sm-4 col-xs-12">
+                                    <img data-action="zoom" class="img-responsive project-image" src="assets/images/papers/jain2020Patient.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <p align="justify" class="summary">In this work, we treat the task for multi-view monocular imagery acquiring both body surface as well as reference markers. To fulfill the high accuracy requirements the patient is not supposed to move while images are taken. An approach towards relaxing this demanding situation is to measure small movements of the patient, e.g. with help of an electromagnetic device, and to compensate for the measured motion prior to body surface triangulation. We present two approaches for motion compensation: disparity shift compensation, and moving cameras compensation - both capable of achieving patient registration qualitatively equivalent to motion-free registration
+                                        <a class="more-link" href="#" target="_blank"> Find out more <i class="fas fa-external-link-alt"></i> </a></p>
+                                </div>
+                                <!--//desc-->
+                            </div>                            
+                            <hr class="divider" />
+							<div class="item row ">
+                                <h3 class="title">Passive Classification of Source Printer using Text-line-level Geometric Distortion Signatures from Scanned Images of Printed Documents</h3>
+                                <h4 class="publicationhouse"><a href="https://link.springer.com/journal/11042" target="_blank">Multimedia Tools and Applications (MTAP), Springer, Dec 2019</a></h4>
+                                <h4 class="author">Hardik Jain, <a href="https://www.linkedin.com/in/sharad-joshi-a9156060/" target="_blank">Sharad Joshi</a>, <a href="#">Gaurav Gupta</a>, <a href="https://sites.google.com/view/nitinkhanna/" target="_blank">Nitin Khanna</a></h4>
+                                <a class="col-md-4 col-sm-4 col-xs-12">
+                                    <img data-action="zoom" class="img-responsive project-image" src="assets/images/papers/jain2019Passive.PNG" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <p align="justify" class="summary">In this digital era, one thing that still holds the convention is a printed archive. Printed documents find their use in many critical domains such as contract papers, legal tenders and proof of identity documents. As more advanced printing, scanning and image editing techniques are becoming available, forgeries on these legal tenders pose a serious threat. Ability to easily and reliably identify source printer of a printed document can help a lot in reducing this menace.
+                                        <a class="more-link" href="https://link.springer.com/article/10.1007/s11042-019-08508-x" target="_blank"> Find out more <i class="fas fa-external-link-alt"></i> </a></p>
+                                </div>
+                                <!--//desc-->
+                            </div>                            
+                            <hr class="divider" />
+							<div class="item row">
+                                <h3 class="title">An Enhanced Statistical Approach for Median Filtering Detection using Difference Image</h3>
+                                <!--<span class="label label-theme">Open Source</span></h3> -->
+                                <h4 class="publicationhouse"><a href="http://ieee-biometrics.org/isba2017/" target="_blank">IEEE International Conference on Identity, Security and Behavior Analysis (ISBA), India, 2017</a></h4>
+                                <h4 class="author">Hardik Jain, <a href="https://www.linkedin.com/in/joydeep-das-7275a9b5/" target="_blank">Joydeep Das</a>, <a href="https://www.linkedin.com/in/hemant-verma-b64b9194/" target="_blank">Hemant Kumar Verma</a>, <a href="https://sites.google.com/view/nitinkhanna/" target="_blank">Nitin Khanna</a></h4>
+                                <a class="col-md-4 col-sm-4 col-xs-12">
+                                    <img class="img-responsive project-image" src="assets/images/papers/jain2016Enhanced.PNG" alt="project name" data-action="zoom" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <p align="justify" class="summary">In image forensics, detection of image forgeries involving non-linear manipulations have received a great deal of interest in recent past. Median filtering (MF) is one such non-linear manipulation technique which is quite often used in number of applications such as to hide impulse noises. Unlike other linear filtering operations, non-linear characteristics of median filtering makes it harder to detect using traditional forensics methods designed for detecting linear operations.
+                                        <a class="more-link" href="http://ieeexplore.ieee.org/document/7947704/" target="_blank"> Find out more <i class="fas fa-external-link-alt"></i></a></p>
+                                </div>
+                                <!--//item-->
+                            </div>
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </section>
+				<!--//AccomplishedProjects-->
+                <section class="latest section">
+                    <!--Projects-->
+                    <div class="section-inner">
+                        <h2 class="heading">VR Mobile Applications</h2>
+                        <div class="item row" , align="center">
+                            <!-- CV VR title and app links -->
+                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                <h3 class="title">CV VR</h3>
+                                <h4 class="software"><a2 href="https://unity3d.com/"> Unity 3D</a2>, <a2 href="https://www.blender.org/">Blender</a2>, C#</h4>
+                            </div>
+                            <a class="desc col-md-8 col-sm-8 col-xs-12">
+                                <h3 class="title"> 
+                                     <a href='https://youtu.be/TBtDFF3m5eg' target="_blank"><img style="width:25%; max-width:150px;" src='assets\images\projects\youtube.png'/></a> 
+                                     &nbsp
+									 <a href='https://play.google.com/store/apps/details?id=com.CV.CVVR' target="_blank"><img style="width:25%; max-width:150px;" src='assets\images\projects\playStore.png'/></a> 
+                                </h3>
+                            </a>
+                            <!--//desc-->
+                        </div>
+                        <!--//title and app links-->
+                        <div class="item row">
+                            <!-- BDay VR icon & content -->
+                            <div class="col-md-4 col-sm-4 col-xs-4", align="center">
+                                <img class="img-responsive project-image" style="width:80%;" src="assets/images/projects/CVVR.png" alt="project name" />
+                            </div>
+							<p align="justify">A virtual reality based application premiered on Long Night of Science 2019, Berlin Germany. This contains projects of computer vision and remote sensing group at Technical University Berlin, Germany. Scene includes 3D Toronto city model, dinosaur skeleton point cloud, train station reconstruction.
+							</p>
+                            <!--//desc-->
+                        </div>
+                        <!--//CV VR icon & content-->
+                        <hr class="divider" />
+
+                        <div class="item row" , align='center'>
+                            <!-- GRSS VR title and app link-->
+                            <a class="col-md-4 col-sm-4 col-xs-12">
+                                <h3 class="title">GRSS VR</h3>
+                                <h4 class="software"><a2 href="https://unity3d.com/"> Unity 3D</a2>, <a2 href="https://www.blender.org/">Blender</a2>, C#</h4>
+                            </a>
+                            <a class="desc col-md-8 col-sm-8 col-xs-12">
+                                <h3 class="title"> 
+                                   <a href='https://youtu.be/TBtDFF3m5eg' target="_blank"><img style="width:25%; max-width:130px;" src='assets\images\projects\youtube.png'/></a> 
+                                   &nbsp
+                                   <a href='https://play.google.com/store/apps/details?id=com.CV.GRSSVR' target="_blank"><img style="width:25%; max-width:140px;" src='assets\images\projects\playStore.png'/></a> 
+									&nbsp
+									<a href='https://apps.apple.com/us/app/grss-vr/id1424274483' target="_blank"><img style="width:25%; max-width:140px;" src='assets\images\projects\appleStore.png'/></a>
+								</h3>
+                            </a>
+                            <!--//desc-->
+                        </div>
+                        <!-- //GRSS VR title and app link-->
+                        <div class="item row">
+                            <!-- GRSS VR icon & content-->
+                            <div class="col-md-4 col-sm-4 col-xs-4", align="center">
+                                <img class="img-responsive project-image" style="width:80%;" src="assets/images/projects/GRSSVR.png" alt="project name" />
+                            </div>
+							<p align="justify">This app illustrates the work of the seven technical committees of the <a href="http://www.grss-ieee.org/" target="_blank">Geoscience and Remote Sensing Society</a>. Along with the seven scenes for each committee, the app contains an additional introduction scene to make users acquaint with the cardboard and its operations. Compatible with Google Cardboard V2.
+							</p>
+                            <!--//desc--style="font-size:1.3vw;"-->
+                        </div>
+                        <!-- //GRSS VR icon & content-->
+                        <hr class="divider" />
+
+                        <div class="item row" , align="center">
+                            <!-- Birthday VR title and app links -->
+                            <a class="col-md-4 col-sm-4 col-xs-12">
+                                <h3 class="title">Birthday VR</h3>
+                                <h4 class="software"><a2 href="https://unity3d.com/"> Unity 3D</a2>, C# </h4>
+                            </a>
+                            <a class="desc col-md-8 col-sm-8 col-xs-12">
+                                <h3 class="title"> 
+                                     <a href='https://youtu.be/i3lHoPIPhtE' target="_blank"><img style="width:25%; max-width:150px;" src='assets\images\projects\youtube.png'/></a> 
+                                     &nbsp
+									 <a href='https://play.google.com/store/apps/details?id=com.VRProductions.HBDVR' target="_blank"><img style="width:25%; max-width:150px;" src='assets\images\projects\playStore.png'/></a> 
+                                </h3>
+                            </a>
+                            <!--//desc-->
+                        </div>
+                        <!--//title and app links-->
+                        <div class="item row">
+                            <!-- BDay VR icon & content -->
+                            <div class="col-md-4 col-sm-4 col-xs-4", algin="center">
+                                <img class="img-responsive project-image" style="width:80%;" src="assets/images/projects/birthdayVR_icon.png" alt="project name" />
+                            </div>
+                            <p align="justify">It is the first ever Human model based Virtual reality application on Google Play store. Apart from general C# scripting, design of this application also required creating animations for humanoid models. Main scene has three gift boxes enclosed with human models, which are triggered when reticle points it for more than 2 Seconds. Upon triggering, audio and animations start until the reticle points at the model. An easy switching between modes makes it suitable for full-screen view as well.
+							</p>
+                            <!--//desc-->
+                        </div>
+                        <!--//Birthday VR icon & content-->
+
+                    </div>
+                    <!--//section-inner-->
+                </section>
+            </div>
+            <!--//Projects-->
+
+            <div class="secondary col-md-4 col-sm-12 col-xs-12">
+                <aside class="education aside section">
+                    <!--Education-->
+                    <div class="section-inner">
+                        <h2 class="heading">Education</h2>
+                        <div class="content">
+                            <!--
+                            <div class="item">                      
+                                <h3 class="title"><i class="fa fa-graduation-cap"></i> Ph.D. (Pursuing) </h3>
+								<h2 class="branch">Computer Vision and Remote Sensing</h2>
+                                <h4 class="university"><a href="https://www.iitr.ac.in">IIT Roorkee, India</a><span class="year">(2014-2016)</span></h4>
+                            </div>-->
+                            <!--//item-->
+                            <div class="item">
+                                <h3 class="title"><i class="fas fa-graduation-cap"></i>Ph.D.</h3>
+                                <h4 class="university"><span class="year">(2017-present)</span></h4>
+                                <h2 class="branch">Computer Vision and Remote Sensing</h2>
+                                <h4 class="university"><a href="https://www.cv.tu-berlin.de/menue/computer_vision_remote_sensing/" target="_blank">Technische Universität Berlin, Germany </a></h4>
+                            </div>
+                            <!--//item-->
+                            <div class="item">
+                                <h3 class="title"><i class="fas fa-graduation-cap"></i>M.Tech.</h3>
+                                <h4 class="university"><span class="year">(2014-2016)</span></h4>
+                                <h2 class="branch">Instrumentation and Signal Processing</h2>
+                                <h4 class="university"><a href="https://www.iitr.ac.in" target="_blank">Indian Institute of Technology Roorkee, India </a></h4>
+                            </div>
+                            <!--//item-->
+                            <div class="item">
+                                <h3 class="title"><i class="fas fa-graduation-cap"></i>B.E.</h3>
+                                <h4 class="university"><span class="year">(2010-2014)</span></h4>
+                                <h2 class="branch">Electronics and Instrumentation</h2>
+                                <h4 class="university"><a href="http://www.sgsitsindore.in/" target="_blank">SGSITS Indore, India </a></h4>
+                            </div>
+                            <!--//item-->
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </aside>
+                <!--//section-->
+
+                <aside class="awards section">
+                    <!--Awards-->
+                    <div class="section-inner">
+                        <h2 class="heading">Awards</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h4 class="title">DAAD Research Grants<span class="place"></br><a href="http://www.cv.tu-berlin.de/menue/mitarbeiter/hardik_jain/" target="_blank">Technical University Berlin, Germany</a></span> </br><span class="year">(August 2017 - Present)</span></h4>
+                                <p class="summary" align="justify">Research grant to pursue full time PhD at any German Technical University of choice.</p>
+                            </div>
+                            <!--//item-->
+                            <div class="item">
+                                <h4 class="title">DAAD IIT Master sandwich scholarship<span class="place"><a href="http://www.cv.tu-berlin.de/menue/mitarbeiter/hardik_jain/" target="_blank"></br>Technical    University Berlin, Germany</a></span> </br><span class="year">(Sept 2015 - March 2016)</span></h4>
+                                <p class="summary" align="justify">An opportunity for final-year master’s student to complete the dissertation by devoting full time in research at German Technical Universities.</p>
+                            </div>
+                            <!--//item-->
+                            <div class="item">
+                                <h4 class="title">Best Student Award <span class="place"></br><a href="https://www.iitr.ac.in/" target="_blank">IIT Roorkee, India</a></span><span class="year"> (Sept. 2016)</span></h4>
+                                <p class="summary" align="justify">For academic excellence in M.Tech. Engg./M.Arch. Courses at IIT Roorkee for session 2014-2016</p>
+                            </div>
+                            <!--//item-->
+                            <div class="item">
+                                <h4 class="title">Dr. Jai Krishna Medal <span class="place"></br><a href="https://www.iitr.ac.in/" target="_blank">IIT Roorkee, India</a></span><span class="year"> (Sept. 2016)</span></h4>
+                                <p class="summary" align="justify">For obtaining highest CGPA in all M.Tech. Courses at IIT Roorkee</p>
+                            </div>
+                            <!--//item-->
+                        </div>
+                        <!--//content-->
+                    </div>
+                    <!--//section-inner-->
+                </aside>
+                <!--//section-->
+
+                <aside class="awards section">
+                    <!--Updates-->
+                    <div class="section-inner">
+                        <h2 class="heading">Invited Talks</h2>
+						<h3 class="title"> DAAD Scholarship Meeting </h3>
+						<div class="image">
+						<img class="img-responsive project-image" src="assets/images/projects/DAAD_July18.jpg" alt="project name" data-action="zoom" />
+							<div class="imagetext-block">
+							<p> <small>Michael Jordan © DAAD</small></p>
+							</div>
+						</div>
+                        <br>
+                        <p align="justify" class="summary">Glimpse of the presentation (Immerse yourself in Virtual Reality) at invited talk during DAAD Scholarship Meeting Cottbus (July 2018). An article on the same would be published in online magazine <a href="https://www.daad.de/der-daad/daad-aktuell/de/65275-tauchen-sie-ein-in-die-virtuelle-realitaet/" target="_blank">"DAAD Aktuell"</a>.
+
+						<hr class="divider" />
+						
+						<h3 class="title">Talk at my School</h3>
+                        <div class="videoWrapper">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/LPtrmMM4RCo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        </div>
+                        <br>
+                        <p align="justify" class="summary">I was invited to talk with class 12<sup>th</sup> students of my school (Lions Convent School, Sendhwa) on March 16, 2018. Main agenda of the talk was not any motivational speech but a discussion of mistakes I did in my educational career and how I overcame them. </p>
+
+                    </div>
+                </aside>
+            </div>
+            <!--//secondary-->
+
+            <div class="container sections-wrapper">
+                <div class="row">
+                    <!--Blogs-->
+                    <div class="secondary col-md-12 col-sm-12 col-xs-12">
+                        <section class="blog section">
+                            <!--My Blogs-->
+                            <h2 class="heading">My Blogs</h2>
+                            <div class="content">
+                                <div class="primary col-md-6 col-sm-12 col-xs-12">
+                                    <div class="item text-center">
+                                        <h3 class="title">
+        					<a href="https://daad-phd.blogspot.de/2017/03/research-grants-doctoral-programmes-in.html"><i class="fab fa-blogger fa-2x"></i>DAAD PhD Research Grants</a>
+    					</h3>
+                                        <iframe src="https://daad-phd.blogspot.de/?m=1" width="90%" height="400"> </iframe>
+                                    </div>
+                                    <div class="item text-center">
+                                        <h3 class="title">
+    						<a href="https://daad-iit-msp.blogspot.de/2015/07/daad-iit-master-sandwich-programme.html"><i class="fab fa-blogger fa-2x"></i>DAAD IIT Master Sandwich Program</a>
+    					</h3>
+                                        <iframe src="https://daad-iit-msp.blogspot.de/?m=1" width="90%" height="400"> </iframe>
+                                    </div>
+                                </div>
+                                <div class="primary col-md-6 col-sm-12 col-xs-12">
+                                    <div class="item text-center">
+                                        <h3 class="title">
+    						<a href="https://insp-iitr.blogspot.de/2015/08/welcome.html"><i class="fab fa-blogger fa-2x"></i>Instrumentation and Signal Processing @ IIT Roorkee</a>
+    					</h3>
+                                        <iframe src="https://insp-iitr.blogspot.de/?m=1" width="90%" height="400"> </iframe>
+                                    </div>
+                                    <div class="item text-center">
+                                        <h3 class="title">
+    						<a href="https://eisgsits.blogspot.de/2014/11/how-to-prepare-for-semester-exam.html"><i class="fab fa-blogger fa-2x"></i>Electronics and Instrumentation @ SGSITS</a>
+    					</h3>
+                                        <iframe src="https://eisgsits.blogspot.de/?m=1" width="90%" height="400"> </iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!--//section-->
+                    </div>
+                    <!--//section-inner-->
+                </div>
+                <!--//Blogs-->
+            </div>
+
+            <!-- ******FOOTER****** -->
+            <footer class="footer">
+                <div class="container text-center">
+                    <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
+                    <small class="copyright">Special Thanks to <a href="https://www.linkedin.com/in/megha-kawadiya-967772134/">Megha Kawadiya</a> and <a href="https://www.linkedin.com/in/pandurang-wattamwar-37b55a66/">Pandurang Wattamwar</a> </small>
+                    <br>
+                    <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+                </div>
+                <!--//container-->
+            </footer>
+            <!--//footer-->
+
+            <!-- Javascript -->
+            <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
+            <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+            <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script>
+            <!-- github calendar plugin -->
+            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/3.0.2/es6-promise.min.js"></script>
+            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fetch/0.10.1/fetch.min.js"></script>
+            <script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
+            <!-- github activity plugin -->
+            <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+            <script type="text/javascript" src="assets/plugins/github-activity/src/github-activity.js"></script>
+            <!-- custom js -->
+            <script type="text/javascript" src="assets/js/main.js"></script>
+            <script type="text/javascript" src="assets/js/slideshow.js"></script>
+            <!-- Zoom https://github.com/fat/zoom.js/-->
+            <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+            <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+            <script type="text/javascript" src="assets/js/zoom.js"></script>
+            <script type="text/javascript" src="assets/js/transition.js"></script>
 </body>
+
 </html>
