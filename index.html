@@ -171,46 +171,45 @@
                         <h2 class="heading">Publications</h2>
                         <div class="content">
                             <div class="item row">
-                                <h3 class="title">Learning to Reconstruct Symmetric Shapes using Planar Parameterization of 3D Surface</h3>
-                                <h4 class="publicationhouse"><a href="http://openaccess.thecvf.com/menu.py" target="_blank">IEEE International Conference on Computer Vision Workshops (ICCVW), Korea, 2019</a></h4>
-                                <h4 class="author">Hardik Jain, <a href="https://www.cv.tu-berlin.de/menue/mitarbeiter/manuel_woellhaf/" target="_blank">Manuel Wöllhaf</a>, 
-                                    <a href="http://www.cv.tu-berlin.de/menue/mitarbeiter/olaf_hellwich/" target="_blank">Olaf Hellwich</a></h4>
-                                <a class="col-md-4 col-sm-4 col-xs-12">
-                                    <img class="img-responsive project-image" src="assets/images/papers/jain2019Learning.png" data-action="zoom" alt="project name" />
+                                <h3 class="title">A Power Efficient Multi-Bit Accelerator for Memory Prohibitive Deep Neural Networks</h3>
+                                <h4 class="publicationhouse"><a href="https://iscas2020.org/" target="_blank">IEEE International Symposium on Circuits and Systems (ISCAS), Spain, 2020</a></h4>
+                                <h4 class="author">Suhas Shivaprakash, <a href="https://www.cv.tu-berlin.de/menue/mitarbeiter/hardik_jain/" target="_blank">Hardik Jain</a>, 
+                                    <a href="http://www.cv.tu-berlin.de/menue/mitarbeiter/olaf_hellwich/" target="_blank">Olaf Hellwich</a> <a href="https://www.msc.tu-berlin.de/menue/team/gerfers_eng/" target="_blank">Friedel Gerfers</a></h4>
+                                <a class="col-md-12 col-sm-12 col-xs-12">
+                                    <img class="img-responsive project-image" src="assets/images/papers/Power_Architecture.jpg" data-action="zoom" alt="project name" />
                                 </a>
-                                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                    <p align="justify" class="summary">Shape priors have been a game changer to achieve robust 3D reconstruction. In this work, we try to reconstruct 3D shape from images by using a parameterized representation of the shape. We perform iterative parameterization of the surface to obtain a planar representation. This representation is encoded with surface information to generate 2D geometry images, which can be conveniently learned using traditional deep neural networks without additional overhead. Our experiments demonstrate that the proposed network learns detailed features and is able to reconstruct geometrically accurate shapes from single image. <a class="more-link" href="https://github.com/hrdkjain/LearningSymmetricShapes" target="_blank"> Find out more <i class="fas fa-external-link-alt"></i></a></p>
+                                <div class="desc col-md-12 col-sm-12 col-xs-12">
+                                    <p align="justify" class="summary">State of art deep neural network (DNN) models are both memory prohibitive and computationally intensive with millions of connections. Employing these models for an embedded mobile application is resource limited with large amount of power consumption and significant bandwidth requirement (to access the data from the external DRAM). In a custom FPGA hardware the bandwidth access from the DRAM is two to three times higher, compared to the MAC (Multiply-Accumulate) operation. In this paper, we propose a power efficient multi-bit neural network accelerator, where we employ the technique of truncating the partial sum (PSum) results from the previous layer before feeding it into the next layer. We demonstrate that, using our multi-bit accelerator, accuracy is maintained upto bit width of 12. The proposed truncation scheme has 50% power reduction and resource utilization was reduced by 16% for LUTs (Look-up tables), 9% for FFs (Flip-Flops), 19% for BRAMs (Block RAMs) and 7% for Digital Signal Processors (DSPs) when compared with the 32 bits architecture. A large network, AlexNet was used as a benchmark DNN model and Kintex-7 KC705 FPGA was used to test the architecture. <a class="more-link" href="https://www.epapers.org/iscas2020/ESR/paper_details.php?PHPSESSID=ahot32rct1i70mbiumrnkf5633&paper_id=1484" target="_blank"> Find out more <i class="fas fa-external-link-alt"></i></a></p>
                                 </div>
                             </div>
                             <!--//item-->
                             <hr class="divider" />
                             <div class="item row">
-                                <h3 class="title">Improving 3D Face Geometry by Adapting Reconstruction From Stereo Image Pair to Generic Morphable Model</h3>
+                                <h3 class="title">Comparison of Hsclone and Roulette Genetic Algorithms on the Application of Combinational Circuits</h3>
                                 <!--<span class="label label-theme">Open Source</span></h3> -->
-                                <h4 class="publicationhouse"><a href="http://fusion2016.org/Main_Page" target="_blank">International Conference on Information Fusion (FUSION), Germany, 2016</a></h4>
-                                <h4 class="author">Hardik Jain, <a href="http://www.cv.tu-berlin.de/menue/mitarbeiter/olaf_hellwich/" target="_blank">Olaf Hellwich</a>, <a href="https://www.iitr.ac.in/departments/EE/pages/People+Faculty+anandfee.html" target="_blank">R S Anand</a></h4>
-                                <a class="col-md-4 col-sm-4 col-xs-12">
-                                    <img class="img-responsive project-image" src="assets/images/papers/jain2016Improving.PNG" data-action="zoom" alt="project name" />
+                                <h4 class="publicationhouse"><a href="https://www.ijeat.org/" target="_blank">International Journal of Engineering and Advanced Technology (IJEAT), ISSN: 2249 – 8958, Volume-5, Issue-4, April 2016 </a></h4>
+                                <h4 class="author">Suhas Shivaprakash, <a href="https://www.linkedin.com/in/rajini-vh-03827b89/" target="_blank">Rajini V H </a>, <a href="https://www.linkedin.com/in/gayatri-malhotra-bb3b5622/" target="_blank">Gayatri Malhotra</a></h4>
+                                <a class="col-md-12 col-sm-4 col-xs-12">
+                                    <img class="img-responsive project-image" src="assets/images/papers/Genetic_Algorithms.JPG" data-action="zoom" alt="project name" />
                                 </a>
-                                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                    <p align="justify" class="summary">Stereo reconstruction from image pairs is a standard method for 3D acquisition of human faces. Depending on available imagery and accuracy requirements the resulting 3D reconstructions may have deficits. In this work we remedy such deficits combining the 3D stereo reconstruction with a generic Morphable Model. Prior shape information can be obtained by already developed methods, which uses landmarks to fit a morphable model to a single image resulting in a second 3D reconstruction. This alternative to the stereo reconstruction is combined with it, allowing to prefer information from the single image reconstruction whenever the stereo reconstruction shows untypical deviations from the expected 3D features of a human face.
-                                        <a class="more-link" href="http://ieeexplore.ieee.org/document/7528091/" target="_blank"> Find out more <i class="fas fa-external-link-alt"></i></a></p>
+                                <div class="desc col-md-12 col-sm-8 col-xs-12">
+                                    <p align="justify" class="summary">Future planetary and deep space exploration require robust methods of operation to operate spacecraft in the outer atmosphere without any variations or faults. The best fault tolerant method which can be used for operations of this kind is the class of Genetic Algorithms (GA) which are a sort of evolutionary algorithm. In this domain of operation, a combinational circuit is designed by the method of Cartesian Genetic Programming (CGP). The Circuit after the design is fed to the two GAs, namely, HsClone and Roulette. The main advantage in this use of GA is the likely determination of the best possible circuit within the space of a thousand circuits. The combinational circuit design is applied to both the algorithms and tested for fitness. After the required fitness is obtained, both the algorithms are compared with respect to their cumulative generational fitness and other allied aspects. The better algorithm will hence be determined to integrate it into the future design of spacecraft hardware. This is expected to help the spacecraft recover from Single Event Upsets (SEU) which usually occur due to hostile temperature conditions and outer atmospheric radiation.
+                                        <a class="more-link" href="https://pdfs.semanticscholar.org/5b10/8981f469fdb2ab46abd2fa121f1308f42b8a.pdf" target="_blank"> Find out more <i class="fas fa-external-link-alt"></i></a></p>
                                 </div>
                             </div>
                             <!--//item-->
                             <hr class="divider" />
                             <div class="item row">
                                 <h2 class="heading">Master's Thesis</h2>
-                                <h3 class="title">Using Morphable Face Model to Improve Stereo Reconstruction and Visualising the Model on a Smartphone</h3>
+                                <h3 class="title">Implementation of genetic algorithms on ultra scale FPGAs to avoid single-event upset on deep space missions</h3>
                                 <!--<span class="label label-theme">Open Source</span></h3> -->
-                                <h4 class="author"><a href="https://www.iitr.ac.in/" target="_blank">IIT Roorkee, India (May 2016)</a></h4>
-                                <a class="col-md-4 col-sm-4 col-xs-12">
-                                    <img class="img-responsive project-image" src="assets/images/papers/MTechThesis.PNG" alt="project name" data-action="zoom" />
+                                <h4 class="author"><a href="https://vtu.ac.in/" target="_blank"> Visvesvaraya Technological University,</a> <a href="https://www.isro.gov.in/about-isro/u-r-rao-satellite-centre-ursc" target="_blank"> ISRO Satellite Centre May 2016</a> </h4>
+                                <a class="col-md-8 col-sm-4 col-xs-12">
+                                    <img class="img-responsive project-image" src="assets/images/papers/Genetic_Algorithm.JPG" alt="project name" data-action="zoom" />
                                 </a>
-                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                <div class="desc col-md-12 col-sm-8 col-xs-12">
                                     <p align="justify" class="summary">
-                                        Stereo Reconstruction from image pair is a standard method for 3D acquisition of human faces. Stereo surface reconstruction has lots of holes, and limited texture information. In this work we remedy such deficits combining the 3D stereo reconstruction with a generic Morphable Face Model. A Major part of the thesis is devoted to improvement in stereo face reconstruction pipeline by allowing to prefer information from the single image reconstruction whenever the stereo reconstruction shows untypical deviations. From a pair of stereo images, one is used for single image reconstruction and the combination gives the stereo model. The two reconstruction are then combined to result in the deformed face model. The fusion outcome results in geometrically more accurate face reconstruction. Finally, the resultant deformed face model is visually presented on a smartphone using cardboard, which addresses the modern trend of low cost devices in virtual 3D visualization.
-                                        <a class="more-link" href="https://www.researchgate.net/publication/308306540_Using_Morphable_Face_Model_to_Improve_Stereo_Reconstruction_and_Visualising_the_Model_on_a_Smartphone" target="_blank"> Find out more <i class="fas fa-external-link-alt"></i></a></p>
+                                        Deep space research and planetary exploration requires that the space vehicles should have robust system and reconfigurable architecture in the unpredictable environment. During this scenario there is a drastic need to develop a hardware architecture that can provide evolved hardware architecture in deep space environment, for this reason we will develop an evolutionary design of electronic circuits or an evolvable hardware that allows the On-Board Computer (OBC) to automatically obtain the desired circuit design configuration. This Evolvable Hardware technology that is developed will help to maintain the functionality of the design even in the presence of faults and degradation due to ageing, temperature and radiation. The key benefits are spacecraft survivability, to carry out new mission requirements, adaptation to new mission requirements and mission reliability. This Evolvable Hardware technology also helps in interplanetary mission taken by the space agency. The entire circuit configuration uses Evolutionary Algorithm, where one such algorithm is the Genetic Algorithm. Genetic Algorithm (GA) is the heuristic algorithm that operates on the population of solution and applies the principle of survival of fittest to provide better approximation to solution. In this research a combinational circuit is designed using Cartesian Genetic Programming (CGP) and is applied to three GA`s namely: HsClone, Roulette and Compact which is tested for fitness. After the required fitness is obtained, all the algorithms are compared for generational fitness and other allied aspects. Finally the better algorithm is found out so that it can operate on the spacecraft to recover from Single Event Upsets which occurs mainly due to unpredictable hostile environment conditions.
                                 </div>
                                 <!--//item-->
                             </div>
@@ -229,19 +228,14 @@
                             <div class="item row" , align="center">
                                 <!-- RealSense title-->
                                 <div class="desc col-md-12 col-sm-12 col-xs-12">
-                                    <h3 class="title">Patient Surface Registration for Surgical Navigation<span class='label'>
-                                <a href="http://www.fiagon.com/">Fiagon GmbH</a></span></h3>
-                                    <h4 class="software"><a2 href="https://unity3d.com/"> MS Visual Studio</a2>, <a2 href="https://www.blender.org/">Blender</a2>, <a2 href="https://www.meshlab.net/">MeshLab</a2>, C++
-                                </h4>
+                                    <h3 class="title">eNANO: Compressed deep learning accelerator for LSTM networks<span class='label'>
+                                <a href="https://www.fraunhofer.de/">Fraunhofer Heinrich Hertz</a></span></h3>
                                 </div>
                             </div>
                             <!--//RealSense title-->
                             <div class="item row">
-                                <!-- RealSense content-->
-                                <a class="col-md-4 col-sm-4 col-xs-4">
-                                    <img class="img-responsive project-image" src="assets/images/projects/Motion3.JPG" alt="project name" />
-                                </a>
-                                <p align="justify"> For surgical navigation, the patient's facial surface needs to be co-registered with pre-surgically acquired data (CT Scan). To acquire the facial surface, non-contact based image acquisition is employed. Image based stereo reconstruction requires capturing atleast two images from different view points, or using a stereo camera. After capturing the 3D data, it is to be registered with the pre-surgical data using reference markers.					</p>
+                                <!-- RealSense content-->                               
+                                <p align="justify"> Uses compression based algorithms for the fully connected layer in the LSTM based network, to reduce the memory requirement in the weight and the activation storage when compared to the present state of art techniques. GF22nm FDSOI technology is used for the hardware implementation. 	</p>
                             </div>
                             <!--//RealSense content--->
                         </div>
@@ -259,155 +253,44 @@
 							<div class="item row ">
                                 <h3 class="title">A Power Efficient Multi-Bit Accelerator for Memory Prohibitive Deep Neural Networks</h3>
                                 <h4 class="publicationhouse"><a href="https://iscas2020.org/" target="_blank">IEEE International Symposium on Circuits and Systems (ISCAS), Spain, May 2020</a></h4>
-                                <h4 class="author"><a href="https://www.msc.tu-berlin.de/menue/team/suhas/" target="_blank">Suhas Shivaprakash</a>, Hardik Jain, <a href="https://www.cv.tu-berlin.de/menue/mitarbeiter/olaf_hellwich/" target="_blank">Olaf Hellwich</a>, <a href="https://www.msc.tu-berlin.de/menue/team/gerfers_eng/" target="_blank">Friedel Gerfers</a></h4>
-                                <a class="col-md-4 col-sm-4 col-xs-12">
-                                    <img data-action="zoom" class="img-responsive project-image" src="assets/images/papers/shivaprakash2020Power.png" alt="project name" />
-                                </a>
-                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                <h4 class="author">Suhas Shivaprakash, <a href="https://www.cv.tu-berlin.de/menue/mitarbeiter/hardik_jain/" target="_blank">Hardik Jain</a>, 
+                                    <a href="http://www.cv.tu-berlin.de/menue/mitarbeiter/olaf_hellwich/" target="_blank">Olaf Hellwich</a> <a href="https://www.msc.tu-berlin.de/menue/team/gerfers_eng/" target="_blank">Friedel Gerfers</a> </h4>
+                                <div class="desc col-md-12 col-sm-8 col-xs-12">
                                     <p align="justify" class="summary">State of art deep neural network (DNN) models are both memory prohibitive and computationally intensive with millions of connections. Employing these models for an embedded mobile application is resource limited with large power consumption and significant bandwidth requirement. In this paper, we propose a power efficient multi-bit neural network accelerator, where we employ the technique of truncating the partial sum (PSum) results from the previous layer before feeding it into the next layer.
-                                        <a class="more-link" href="#" target="_blank"> Find out more <i class="fas fa-external-link-alt"></i> </a></p>
+                                        <a class="more-link" href="https://www.epapers.org/iscas2020/ESR/paper_details.php?PHPSESSID=ahot32rct1i70mbiumrnkf5633&paper_id=1484" target="_blank"> Find out more <i class="fas fa-external-link-alt"></i> </a></p>
                                 </div>
                                 <!--//desc-->
                             </div>                            
                             <hr class="divider" />
 							<div class="item row ">
-                                <h3 class="title">Patient Motion Compensation for Photogrammetric Registration</h3>
-                                <h4 class="publicationhouse"><a href="http://www.visapp.visigrapp.org/" target="_blank">International Conference on Computer Vision Theory and Applications (VISAPP), Malta, Feb 2020</a></h4>
-                                <h4 class="author">Hardik Jain, <a href="https://www.cv.tu-berlin.de/menue/mitarbeiter/olaf_hellwich/" target="_blank">Olaf Hellwich</a>, <a href="#" >Andreas Rose</a>, <a href="#" >Nicholas Norman</a>, <a href="#">Dirk Much</a>, <a href="#">Timo Krüger</a></h4>
+                                <h3 class="title">A 45mW Source-Series-Terminated Transmitter and Echo Canceler Complying to up-to 5GBase-T1 Automotive Ethernet Standard in 22 nm FDSOI</h3>
+                                <h4 class="publicationhouse"><a href="#" target="_blank">Yet to be published</a></h4>
+                                <h4 class="author"><a href="https://www.msc.tu-berlin.de/menue/team/ghafarian/" target="_blank">Hossein Ghafarian</a>,<a href="https://www.msc.tu-berlin.de/menue/team/philipp_scholz/" target="_blank">Philipp Scholz</a>, Suhas Shivaprakash, <a href="#"> Marcus Schubert</a>, <a href="https://www.msc.tu-berlin.de/menue/team/gerfers_eng/" target="_blank">Friedel Gerfers</a> </h4>
                                 <a class="col-md-4 col-sm-4 col-xs-12">
-                                    <img data-action="zoom" class="img-responsive project-image" src="assets/images/papers/jain2020Patient.png" alt="project name" />
+                                    <img data-action="zoom" class="img-responsive project-image" src="assets/images/papers/DDS.JPG" alt="project name" />
                                 </a>
                                 <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                    <p align="justify" class="summary">In this work, we treat the task for multi-view monocular imagery acquiring both body surface as well as reference markers. To fulfill the high accuracy requirements the patient is not supposed to move while images are taken. An approach towards relaxing this demanding situation is to measure small movements of the patient, e.g. with help of an electromagnetic device, and to compensate for the measured motion prior to body surface triangulation. We present two approaches for motion compensation: disparity shift compensation, and moving cameras compensation - both capable of achieving patient registration qualitatively equivalent to motion-free registration
-                                        <a class="more-link" href="#" target="_blank"> Find out more <i class="fas fa-external-link-alt"></i> </a></p>
+                                    <p align="justify" class="summary">In this work, we present a 9-bit source-series-terminated digital-to-analog driver with a closely tied echo canceler. Designed and fabricated in 22nm FDSOI process, the transmitter achieves 5 Gb/s data rate with PAM4 under chip-on-board assembly. The measured differential eye-opening is 1V. The measured peak-to-peak data jitter is 110ps and has the power efficiency for the main DAC of 4.5 mW/Gb/s. The driver pair is suitable for Automotive Ethernet Standards 1GBase-T1, 2.5GBase-T1 and 5GBase-T1. The transmitter with the echo canceler dissipates 42mV and 3mV of power from a 1.2V I/O supply and 0.8V core supply,respectively.
                                 </div>
                                 <!--//desc-->
                             </div>                            
                             <hr class="divider" />
 							<div class="item row ">
-                                <h3 class="title">Passive Classification of Source Printer using Text-line-level Geometric Distortion Signatures from Scanned Images of Printed Documents</h3>
-                                <h4 class="publicationhouse"><a href="https://link.springer.com/journal/11042" target="_blank">Multimedia Tools and Applications (MTAP), Springer, Dec 2019</a></h4>
-                                <h4 class="author">Hardik Jain, <a href="https://www.linkedin.com/in/sharad-joshi-a9156060/" target="_blank">Sharad Joshi</a>, <a href="#">Gaurav Gupta</a>, <a href="https://sites.google.com/view/nitinkhanna/" target="_blank">Nitin Khanna</a></h4>
+                                <h3 class="title">Wireless Communication module for launched satellites in deep space communication </h3>
+                                <h4 Confidential</a></h4>
+                                <h4 class="author">Suhas Shivaprakash, <a href="#"> Sudeesh B</a>, <a href="#"> Sudhakar B S</a></h4>
                                 <a class="col-md-4 col-sm-4 col-xs-12">
-                                    <img data-action="zoom" class="img-responsive project-image" src="assets/images/papers/jain2019Passive.PNG" alt="project name" />
+                                    <img data-action="zoom" class="img-responsive project-image" src="assets/images/papers/Zigbee.JPG" alt="project name" />
                                 </a>
                                 <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                    <p align="justify" class="summary">In this digital era, one thing that still holds the convention is a printed archive. Printed documents find their use in many critical domains such as contract papers, legal tenders and proof of identity documents. As more advanced printing, scanning and image editing techniques are becoming available, forgeries on these legal tenders pose a serious threat. Ability to easily and reliably identify source printer of a printed document can help a lot in reducing this menace.
-                                        <a class="more-link" href="https://link.springer.com/article/10.1007/s11042-019-08508-x" target="_blank"> Find out more <i class="fas fa-external-link-alt"></i> </a></p>
+                                    <p align="justify" class="summary">Zigbee module was employed with EM35XX development kit.
                                 </div>
                                 <!--//desc-->
                             </div>                            
-                            <hr class="divider" />
-							<div class="item row">
-                                <h3 class="title">An Enhanced Statistical Approach for Median Filtering Detection using Difference Image</h3>
-                                <!--<span class="label label-theme">Open Source</span></h3> -->
-                                <h4 class="publicationhouse"><a href="http://ieee-biometrics.org/isba2017/" target="_blank">IEEE International Conference on Identity, Security and Behavior Analysis (ISBA), India, 2017</a></h4>
-                                <h4 class="author">Hardik Jain, <a href="https://www.linkedin.com/in/joydeep-das-7275a9b5/" target="_blank">Joydeep Das</a>, <a href="https://www.linkedin.com/in/hemant-verma-b64b9194/" target="_blank">Hemant Kumar Verma</a>, <a href="https://sites.google.com/view/nitinkhanna/" target="_blank">Nitin Khanna</a></h4>
-                                <a class="col-md-4 col-sm-4 col-xs-12">
-                                    <img class="img-responsive project-image" src="assets/images/papers/jain2016Enhanced.PNG" alt="project name" data-action="zoom" />
-                                </a>
-                                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                    <p align="justify" class="summary">In image forensics, detection of image forgeries involving non-linear manipulations have received a great deal of interest in recent past. Median filtering (MF) is one such non-linear manipulation technique which is quite often used in number of applications such as to hide impulse noises. Unlike other linear filtering operations, non-linear characteristics of median filtering makes it harder to detect using traditional forensics methods designed for detecting linear operations.
-                                        <a class="more-link" href="http://ieeexplore.ieee.org/document/7947704/" target="_blank"> Find out more <i class="fas fa-external-link-alt"></i></a></p>
-                                </div>
-                                <!--//item-->
-                            </div>
                         </div>
                         <!--//content-->
                     </div>
                     <!--//section-inner-->
-                </section>
-				<!--//AccomplishedProjects-->
-                <section class="latest section">
-                    <!--Projects-->
-                    <div class="section-inner">
-                        <h2 class="heading">VR Mobile Applications</h2>
-                        <div class="item row" , align="center">
-                            <!-- CV VR title and app links -->
-                            <div class="col-md-4 col-sm-4 col-xs-12">
-                                <h3 class="title">CV VR</h3>
-                                <h4 class="software"><a2 href="https://unity3d.com/"> Unity 3D</a2>, <a2 href="https://www.blender.org/">Blender</a2>, C#</h4>
-                            </div>
-                            <a class="desc col-md-8 col-sm-8 col-xs-12">
-                                <h3 class="title"> 
-                                     <a href='https://youtu.be/TBtDFF3m5eg' target="_blank"><img style="width:25%; max-width:150px;" src='assets\images\projects\youtube.png'/></a> 
-                                     &nbsp
-									 <a href='https://play.google.com/store/apps/details?id=com.CV.CVVR' target="_blank"><img style="width:25%; max-width:150px;" src='assets\images\projects\playStore.png'/></a> 
-                                </h3>
-                            </a>
-                            <!--//desc-->
-                        </div>
-                        <!--//title and app links-->
-                        <div class="item row">
-                            <!-- BDay VR icon & content -->
-                            <div class="col-md-4 col-sm-4 col-xs-4", align="center">
-                                <img class="img-responsive project-image" style="width:80%;" src="assets/images/projects/CVVR.png" alt="project name" />
-                            </div>
-							<p align="justify">A virtual reality based application premiered on Long Night of Science 2019, Berlin Germany. This contains projects of computer vision and remote sensing group at Technical University Berlin, Germany. Scene includes 3D Toronto city model, dinosaur skeleton point cloud, train station reconstruction.
-							</p>
-                            <!--//desc-->
-                        </div>
-                        <!--//CV VR icon & content-->
-                        <hr class="divider" />
-
-                        <div class="item row" , align='center'>
-                            <!-- GRSS VR title and app link-->
-                            <a class="col-md-4 col-sm-4 col-xs-12">
-                                <h3 class="title">GRSS VR</h3>
-                                <h4 class="software"><a2 href="https://unity3d.com/"> Unity 3D</a2>, <a2 href="https://www.blender.org/">Blender</a2>, C#</h4>
-                            </a>
-                            <a class="desc col-md-8 col-sm-8 col-xs-12">
-                                <h3 class="title"> 
-                                   <a href='https://youtu.be/TBtDFF3m5eg' target="_blank"><img style="width:25%; max-width:130px;" src='assets\images\projects\youtube.png'/></a> 
-                                   &nbsp
-                                   <a href='https://play.google.com/store/apps/details?id=com.CV.GRSSVR' target="_blank"><img style="width:25%; max-width:140px;" src='assets\images\projects\playStore.png'/></a> 
-									&nbsp
-									<a href='https://apps.apple.com/us/app/grss-vr/id1424274483' target="_blank"><img style="width:25%; max-width:140px;" src='assets\images\projects\appleStore.png'/></a>
-								</h3>
-                            </a>
-                            <!--//desc-->
-                        </div>
-                        <!-- //GRSS VR title and app link-->
-                        <div class="item row">
-                            <!-- GRSS VR icon & content-->
-                            <div class="col-md-4 col-sm-4 col-xs-4", align="center">
-                                <img class="img-responsive project-image" style="width:80%;" src="assets/images/projects/GRSSVR.png" alt="project name" />
-                            </div>
-							<p align="justify">This app illustrates the work of the seven technical committees of the <a href="http://www.grss-ieee.org/" target="_blank">Geoscience and Remote Sensing Society</a>. Along with the seven scenes for each committee, the app contains an additional introduction scene to make users acquaint with the cardboard and its operations. Compatible with Google Cardboard V2.
-							</p>
-                            <!--//desc--style="font-size:1.3vw;"-->
-                        </div>
-                        <!-- //GRSS VR icon & content-->
-                        <hr class="divider" />
-
-                        <div class="item row" , align="center">
-                            <!-- Birthday VR title and app links -->
-                            <a class="col-md-4 col-sm-4 col-xs-12">
-                                <h3 class="title">Birthday VR</h3>
-                                <h4 class="software"><a2 href="https://unity3d.com/"> Unity 3D</a2>, C# </h4>
-                            </a>
-                            <a class="desc col-md-8 col-sm-8 col-xs-12">
-                                <h3 class="title"> 
-                                     <a href='https://youtu.be/i3lHoPIPhtE' target="_blank"><img style="width:25%; max-width:150px;" src='assets\images\projects\youtube.png'/></a> 
-                                     &nbsp
-									 <a href='https://play.google.com/store/apps/details?id=com.VRProductions.HBDVR' target="_blank"><img style="width:25%; max-width:150px;" src='assets\images\projects\playStore.png'/></a> 
-                                </h3>
-                            </a>
-                            <!--//desc-->
-                        </div>
-                        <!--//title and app links-->
-                        <div class="item row">
-                            <!-- BDay VR icon & content -->
-                            <div class="col-md-4 col-sm-4 col-xs-4", algin="center">
-                                <img class="img-responsive project-image" style="width:80%;" src="assets/images/projects/birthdayVR_icon.png" alt="project name" />
-                            </div>
-                            <p align="justify">It is the first ever Human model based Virtual reality application on Google Play store. Apart from general C# scripting, design of this application also required creating animations for humanoid models. Main scene has three gift boxes enclosed with human models, which are triggered when reticle points it for more than 2 Seconds. Upon triggering, audio and animations start until the reticle points at the model. An easy switching between modes makes it suitable for full-screen view as well.
-							</p>
-                            <!--//desc-->
-                        </div>
-                        <!--//Birthday VR icon & content-->
-
-                    </div>
                     <!--//section-inner-->
                 </section>
             </div>
@@ -429,22 +312,22 @@
                             <div class="item">
                                 <h3 class="title"><i class="fas fa-graduation-cap"></i>Ph.D.</h3>
                                 <h4 class="university"><span class="year">(2017-present)</span></h4>
-                                <h2 class="branch">Computer Vision and Remote Sensing</h2>
-                                <h4 class="university"><a href="https://www.cv.tu-berlin.de/menue/computer_vision_remote_sensing/" target="_blank">Technische Universität Berlin, Germany </a></h4>
+                                <h2 class="branch">Mixed Circuit VLSI Design</h2>
+                                <h4 class="university"><a href="https://www.msc.tu-berlin.de/menue/team/suhas/" target="_blank">Technische Universität Berlin, Germany </a></h4>
                             </div>
                             <!--//item-->
                             <div class="item">
                                 <h3 class="title"><i class="fas fa-graduation-cap"></i>M.Tech.</h3>
                                 <h4 class="university"><span class="year">(2014-2016)</span></h4>
-                                <h2 class="branch">Instrumentation and Signal Processing</h2>
-                                <h4 class="university"><a href="https://www.iitr.ac.in" target="_blank">Indian Institute of Technology Roorkee, India </a></h4>
+                                <h2 class="branch">VLSI Design and Embedded System </h2>
+                                <h4 class="university"><a href="https://vtu.ac.in/" target="_blank">Visvesvaraya Technological University, India </a></h4>
                             </div>
                             <!--//item-->
                             <div class="item">
                                 <h3 class="title"><i class="fas fa-graduation-cap"></i>B.E.</h3>
                                 <h4 class="university"><span class="year">(2010-2014)</span></h4>
-                                <h2 class="branch">Electronics and Instrumentation</h2>
-                                <h4 class="university"><a href="http://www.sgsitsindore.in/" target="_blank">SGSITS Indore, India </a></h4>
+                                <h2 class="branch">Electronics and Communication Engineering</h2>
+                                <h4 class="university"><a href="https://vtu.ac.in/" target="_blank">Visvesvaraya Technological University, India </a></h4>
                             </div>
                             <!--//item-->
                         </div>
@@ -460,23 +343,28 @@
                         <h2 class="heading">Awards</h2>
                         <div class="content">
                             <div class="item">
-                                <h4 class="title">DAAD Research Grants<span class="place"></br><a href="http://www.cv.tu-berlin.de/menue/mitarbeiter/hardik_jain/" target="_blank">Technical University Berlin, Germany</a></span> </br><span class="year">(August 2017 - Present)</span></h4>
-                                <p class="summary" align="justify">Research grant to pursue full time PhD at any German Technical University of choice.</p>
+                                <h4 class="title">Full Bright (PhD) Scholarship from TU Berlin <span class="place"></br><a href="https://www.msc.tu-berlin.de/menue/team/suhas/" target="_blank">Technical University Berlin, Germany</a></span> </br><span class="year">(Feb 2017 - Present)</span></h4>
+                                <p class="summary" align="justify">Research grant to pursue full time PhD at the university.</p>
                             </div>
                             <!--//item-->
                             <div class="item">
-                                <h4 class="title">DAAD IIT Master sandwich scholarship<span class="place"><a href="http://www.cv.tu-berlin.de/menue/mitarbeiter/hardik_jain/" target="_blank"></br>Technical    University Berlin, Germany</a></span> </br><span class="year">(Sept 2015 - March 2016)</span></h4>
-                                <p class="summary" align="justify">An opportunity for final-year master’s student to complete the dissertation by devoting full time in research at German Technical Universities.</p>
+                                <h4 class="title">Excellent performance award <span class="place"><a href="https://www.isro.gov.in/about-isro/u-r-rao-satellite-centre-ursc" target="_blank"></br>ISRO Satellite Centre, Bengaluru, India</a></span> </br><span class="year">(Aug 2015 - Jan 2017)</span></h4>
+                                <p class="summary" align="justify">For the implementation of zigbee wireless communication module between the two launched operational satellites under the Technology Development Program (TDP).</p>
                             </div>
                             <!--//item-->
                             <div class="item">
-                                <h4 class="title">Best Student Award <span class="place"></br><a href="https://www.iitr.ac.in/" target="_blank">IIT Roorkee, India</a></span><span class="year"> (Sept. 2016)</span></h4>
-                                <p class="summary" align="justify">For academic excellence in M.Tech. Engg./M.Arch. Courses at IIT Roorkee for session 2014-2016</p>
+                                <h4 class="title">Best Thesis Award <span class="place"></br><a href="https://www.isro.gov.in/about-isro/u-r-rao-satellite-centre-ursc" target="_blank">ISRO Satellite Centre, Bengaluru, India</a></span> </br><span class="year">(Aug 2015 - July 2016)</span></h4>
+                                <p class="summary" align="justify">Genetic algorithm implemetation using the concept of molecular biology to avoid single event upset in the spacecraft for the chandrayaan-2 and other interstellar missions</p>
                             </div>
                             <!--//item-->
+							<div class="item">
+                                <h4 class="title">Fourth rank to the state in M.Tech <span class="place"></br><a href=https://vtu.ac.in/"" target="_blank">Visvesvaraya Technological University, India</a></span> </br><span class="year">(Sept 2014 - Aug 2016)</span></h4>
+                                <p class="summary" align="justify">Fourth rank in VLSI Design and Embedded System M.Tech course for the state of Karnataka.</p>
+                            </div>
+							
                             <div class="item">
-                                <h4 class="title">Dr. Jai Krishna Medal <span class="place"></br><a href="https://www.iitr.ac.in/" target="_blank">IIT Roorkee, India</a></span><span class="year"> (Sept. 2016)</span></h4>
-                                <p class="summary" align="justify">For obtaining highest CGPA in all M.Tech. Courses at IIT Roorkee</p>
+                                <h4 class="title">Best Bachelor Student Award <span class="place"></br><a href="https://vtu.ac.in/" target="_blank">Visvesvaraya Technological University, India</a></span><span class="year"> (Aug 2010 - June 2014)</span></h4>
+                                <p class="summary" align="justify">For scoring highest percentage in Electronics and Communication Engineering</p>
                             </div>
                             <!--//item-->
                         </div>
